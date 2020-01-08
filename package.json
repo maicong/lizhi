@@ -1,0 +1,22 @@
+{
+  "name": "lizhi",
+  "version": "0.0.1",
+  "author": "MaiCong",
+  "description": "App for listen music from lizhi.fm",
+  "repository": "https://github.com/maicong/lizhi",
+  "main": "main.js",
+  "engines": {
+    "node": ">=8.1.0"
+  },
+  "scripts": {
+    "start": "electron main.js &"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aplayer": "1.10.1",
+    "axios": "^0.18.0",
+    "electron": "^4.2.12",
+    "lodash": "^4.17.11",
+    "mousetrap": "^1.6.3"
+  }
+}
